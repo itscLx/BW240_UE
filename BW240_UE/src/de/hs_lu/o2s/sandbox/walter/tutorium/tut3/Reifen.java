@@ -7,7 +7,7 @@ public class Reifen {
 	 */
 	
 	double reifenbreite;
-	int felgengröße;
+	int felgengroessee;
 	String reifentyp;
 	
 	
@@ -19,10 +19,10 @@ public class Reifen {
 
 	}
 	
-	public Reifen(double reifenbreite, int felgengröße, String reifentyp) {
+	public Reifen(double reifenbreite, int felgengroesse, String reifentyp) {
 
 		this.reifenbreite = reifenbreite;
-		this.felgengröße = felgengröße;
+		this.felgengroessee = felgengroesse;
 		this.reifentyp = reifentyp;
 	}
 
@@ -39,7 +39,7 @@ public class Reifen {
 	
 	@Override
 	public String toString() {
-		return "reifenbreite=" + reifenbreite + ", felgengröße=" + felgengröße + "";
+		return "reifenbreite=" + reifenbreite + ", felgengröße=" + felgengroessee + "";
 	}
 
 
@@ -62,13 +62,13 @@ public class Reifen {
 	}
 
 
-	public int getFelgengröße() {
-		return felgengröße;
+	public int getFelgengroessee() {
+		return felgengroessee;
 	}
 
 
-	public void setFelgengröße(int felgengröße) {
-		this.felgengröße = felgengröße;
+	public void setFelgengroessee(int felgengroessee) {
+		this.felgengroessee = felgengroessee;
 	}
 	
 	
